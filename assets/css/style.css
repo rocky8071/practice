@@ -1,0 +1,43 @@
+*,
+*::after,
+*::before{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    margin: 0 auto;
+    width:1170px;
+}
+ul{
+    
+    text-decoration: none;
+}
+li{
+    list-style: none;
+}
+#nav{
+    background-color: red;
+    height:60px;
+    width:100%;
+}
+.logo{
+    width:30%;
+    float:left;
+}
+.menu{
+    width:70%;
+    float: left;
+}
+.menu_list ul{
+    text-align: end;
+}
+.menu_list ul li{
+    float: left;
+}
+.menu_list ul li a{
+    padding: 0 15px;
+    text-decoration: none;
+    text-transform:uppercase ;
+
+}
